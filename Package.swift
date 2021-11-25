@@ -24,6 +24,7 @@ let package = Package(
             dependencies: [
                 .product(name: "Hummingbird", package: "hummingbird"),
                 .product(name: "HummingbirdFluent", package: "hummingbird-fluent"),
+                .product(name: "HummingbirdFoundation", package: "hummingbird"),
                 .product(name: "FluentPostgresDriver", package: "fluent-postgres-driver"),
             ]),
     ]
