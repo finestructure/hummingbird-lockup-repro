@@ -2,6 +2,33 @@
   "object": {
     "pins": [
       {
+        "package": "async-kit",
+        "repositoryURL": "https://github.com/vapor/async-kit.git",
+        "state": {
+          "branch": null,
+          "revision": "3b1e7e9069a62295151c6c1609050cd38a0a7af5",
+          "version": "1.11.0"
+        }
+      },
+      {
+        "package": "fluent-kit",
+        "repositoryURL": "https://github.com/vapor/fluent-kit.git",
+        "state": {
+          "branch": null,
+          "revision": "4dc196da17177d0099510c6a3e8b6db0e33466b5",
+          "version": "1.16.2"
+        }
+      },
+      {
+        "package": "fluent-postgres-driver",
+        "repositoryURL": "https://github.com/vapor/fluent-postgres-driver.git",
+        "state": {
+          "branch": null,
+          "revision": "0b7a43c78b7ae47eafad5736ab0fdc00aa31ca6f",
+          "version": "2.2.1"
+        }
+      },
+      {
         "package": "hummingbird",
         "repositoryURL": "https://github.com/hummingbird-project/hummingbird.git",
         "state": {
@@ -20,6 +47,42 @@
         }
       },
       {
+        "package": "hummingbird-fluent",
+        "repositoryURL": "https://github.com/hummingbird-project/hummingbird-fluent.git",
+        "state": {
+          "branch": null,
+          "revision": "712c6a466f9559013fff97a60dfbaca421a90f18",
+          "version": "0.3.2"
+        }
+      },
+      {
+        "package": "postgres-kit",
+        "repositoryURL": "https://github.com/vapor/postgres-kit.git",
+        "state": {
+          "branch": null,
+          "revision": "8e5fc0eb654b11f47e65a76d64c4d7e678d36a40",
+          "version": "2.4.0"
+        }
+      },
+      {
+        "package": "postgres-nio",
+        "repositoryURL": "https://github.com/vapor/postgres-nio.git",
+        "state": {
+          "branch": null,
+          "revision": "2c49bee33daa81f9bb8617910de8167152f84969",
+          "version": "1.7.0"
+        }
+      },
+      {
+        "package": "sql-kit",
+        "repositoryURL": "https://github.com/vapor/sql-kit.git",
+        "state": {
+          "branch": null,
+          "revision": "dff8aba9973f2edd7ddb1d29d8d6994a516cf3c1",
+          "version": "3.13.0"
+        }
+      },
+      {
         "package": "swift-atomics",
         "repositoryURL": "https://github.com/apple/swift-atomics.git",
         "state": {
@@ -35,6 +98,15 @@
           "branch": null,
           "revision": "d3e04a9d4b3833363fb6192065b763310b156d54",
           "version": "1.3.1"
+        }
+      },
+      {
+        "package": "swift-crypto",
+        "repositoryURL": "https://github.com/apple/swift-crypto.git",
+        "state": {
+          "branch": null,
+          "revision": "9b5ef28601a9c745c9cdb54d3f243e28ac830982",
+          "version": "2.0.1"
         }
       },
       {
