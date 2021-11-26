@@ -12,16 +12,16 @@ reset-db: db-down db-up migrate
 run:
 	swift run Server
 
+post-curl:
+	while true ; do curl -X POST -H "Content-Type: application/json" -d '{"title":"'$$(date +'%Y%m%d-%H%M%S')'"}' 127.0.0.1:8080/todos ; done
+
+get-curl:
+	while true ; do curl 127.0.0.1:8080/todos ; done
+
 post:
-	while true ; do curl -X POST -H "Content-Type: application/json" -d '{"title":"'$$(date +'%Y%m%d-%H%M%S')'"}' 127.0.0.1:8080/todos ; sleep 1 ; done
-
-get:
-	while true ; do curl 127.0.0.1:8080/todos ; sleep 1 ; done
-
-post-rester:
 	env title=$$(date +'%Y%m%d-%H%M%S') rester --loop 0 restfiles/post.restfile
 
-get-rester:
+get:
 	rester --loop 0 restfiles/get.restfile
 
 dump:
