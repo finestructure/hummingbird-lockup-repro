@@ -6,6 +6,11 @@ Does _not_ reproduce the error, but crashes the server.
 
 Steps to reproduce:
 
+- install rester:
+```
+brew install mint
+mint install finestructure/rester
+```
 - git checkout rester  # this is the branch with the "rester" variant
 - make db-up
 - make run
