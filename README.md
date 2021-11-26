@@ -2,6 +2,10 @@
 
 Re-implementation of https://github.com/finestructure/vapor-lockup-repro.
 
+⚠️ The bug below has been fixed ⚠️
+
+## Outdated
+
 Does _not_ reproduce the error, but crashes the server.
 
 Steps to reproduce:
